@@ -26,3 +26,4 @@ if __name__ == "__main__":
     assert(is_pyramid("a"))
     assert(is_pyramid("abb"))
     assert(is_pyramid("bab"))
+    assert(not is_pyramid("bac"))
